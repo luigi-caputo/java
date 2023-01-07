@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<META NAME="FACEBOOK" Content="Script">
+#MOD<TITLE>PAGE-TITLE</TITLE>
+</HEAD>
+<BODY>
+
+#MOD<div align="center"><img src="http://img-url" alt="image description" width="100" height="60" />
+</div>
+
+<br></br>
+
+<div style="text-align: center;">
+#MOD<p>TEXT</p>
+</div>
+
+<br></br>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div style="text-align: center;">
+#MOD<div class="fb-like" data-href="https://page-to-like" data-width="450" data-show-faces="true" data-send="true"></div>
+</div>
+
+</BODY>
+</HTML>
